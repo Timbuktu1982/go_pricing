@@ -17,7 +17,7 @@ class GW_GoPricing_Plugin_Installer_Skin extends Plugin_Installer_Skin {
 	// Mute all standard WP update feedback
 	public function header() {}
 	public function footer() {}
-	public function feedback( $string ) {}
+	public function feedback( $feedback, ...$args ) {}
 	public function before() {}
 	public function set_result( $result ) {}
 	public function after() {}
